@@ -1,30 +1,35 @@
 {
   "usuarios": [
-    {
-      "nombre": "ale",
-      "password": "1234",
-      "imagen": "lum.webp",
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "nombre": "user1",
-      "password": "pass1",
-      "imagen": "perfil2.jpg",
-      "clases_registradas": []
-    },
-    {
-      "id": "40ae",
-      "nombre": "ale",
-      "password": "1234"
-    },
-    {
-      "nombre": "are",
-      "password": "rr1234",
-      "imagen": "lum.webp",
-      "id": "ce9d"
-    }
-  ],
+  {
+    "nombre": "ale",
+    "password": "1234",
+    "imagen": "lum.webp",
+    "id": "1",
+    "email": "ale@example.com"
+  },
+  {
+    "id": "2",
+    "nombre": "user1",
+    "password": "pass1",
+    "imagen": "perfil2.jpg",
+    "clases_registradas": [],
+    "email": "user1@example.com"
+  },
+  {
+    "id": "40ae",
+    "nombre": "ale",
+    "password": "1234",
+    "email": "ale2@example.com"
+  },
+  {
+    "nombre": "are",
+    "password": "rr1234",
+    "imagen": "lum.webp",
+    "id": "ce9d",
+    "email": "are@example.com"
+  }
+]
+
   "clases": [
     {
       "id": "1",
