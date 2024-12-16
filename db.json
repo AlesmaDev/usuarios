@@ -1,0 +1,90 @@
+{
+  "usuarios": [
+    {
+      "nombre": "ale",
+      "password": "1234",
+      "imagen": "lum.webp",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "user1",
+      "password": "pass1",
+      "imagen": "perfil2.jpg",
+      "clases_registradas": []
+    },
+    {
+      "id": "40ae",
+      "nombre": "ale",
+      "password": "1234"
+    },
+    {
+      "nombre": "are",
+      "password": "rr1234",
+      "imagen": "lum.webp",
+      "id": "ce9d"
+    }
+  ],
+  "clases": [
+    {
+      "id": "1",
+      "nombre": "Matemáticas",
+      "descripcion": "Clase de matemáticas básica.",
+      "imagen": "matematicas.jpg",
+      "profesor": "Prof. Gómez"
+    },
+    {
+      "id": "2",
+      "nombre": "Historia",
+      "descripcion": "Clase de historia mundial.",
+      "imagen": "historia.jpg",
+      "profesor": "Prof. Pérez"
+    }
+  ],
+  "asignaturas": [
+    {
+      "id": "1",
+      "nombre": "Matemáticas"
+    },
+    {
+      "id": "2",
+      "nombre": "Lenguaje"
+    },
+    {
+      "id": "3",
+      "nombre": "Historia"
+    }
+  ],
+  "justificaciones": [
+    {
+      "id": "1",
+      "asignaturaId": 1,
+      "estudiante": "maicol rivas",
+      "motivo": "Enfermedad",
+      "fecha": "2024-11-27",
+      "comentario": ""
+    },
+    {
+      "id": "2",
+      "asignaturaId": 2,
+      "estudiante": "daniel caro",
+      "motivo": "Consulta médica",
+      "fecha": "2024-11-27",
+      "comentario": ""
+    }
+  ],
+  "asistencia": [
+    {
+      "id": "1",
+      "claseId": 1,
+      "estudianteId": "123",
+      "asistio": false
+    },
+    {
+      "id": "2",
+      "claseId": 1,
+      "estudianteId": "124",
+      "asistio": false
+    }
+  ]
+}
